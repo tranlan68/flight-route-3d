@@ -15,6 +15,9 @@ import { createCylinderBetween, createCircleShape } from "/src/cesium/geometry";
 import { drawAirspace } from "./cesium/airspace";
 import { drawAirspaceA3 } from "./cesium/airspaceA3";
 
+import { AirspaceA3 , loadAirspaceA3 } from "./cesium/route/AirspaceA3";
+import { AirspaceConfig } from "./cesium/route/types/AirspaceConfig";
+
 function App() {
   const cesiumRef = useRef<HTMLDivElement>(null);
   const viewerRef = useRef<Cesium.Viewer | null>(null);
@@ -30,9 +33,29 @@ function App() {
     // Chờ viewer DOM hoàn toàn ready trước khi load data
   (async () => {
     loadOsmData(viewer, MAP_OSM_URL);
+    viewer.scene.morphTo3D(0);
+    viewer.scene.globe.depthTestAgainstTerrain = false;
+
     //drawNetwork(viewer, FLIGHT_PATHS_URL, ROUTE_HEIGHT, ROUTE_WIDTH);
     //drawAirspaceA3(viewer, {center: {lon:105.53522805597483, lat: 20.999445490154468}});
-    drawAirspaceA3(viewer);
+    
+    //drawAirspaceA3(viewer);
+
+    viewer.camera.flyTo({
+        destination: Cesium.Cartesian3.fromDegrees(
+          105.81140200396275,
+          20.991330141985213,
+          1186.8278906839164
+        ),
+        orientation: {
+          heading: Cesium.Math.toRadians(313.5464252726931),
+          pitch: Cesium.Math.toRadians(-25.915761984299664),
+          roll: 0,
+        },
+      });
+    loadAirspaceA3(viewer, "./assets/routes/airspace_a3.json");
+
+
 
 //     viewer.scene.morphTo3D(0);
 

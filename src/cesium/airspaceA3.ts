@@ -15,8 +15,8 @@ export function drawAirspaceA3(viewer: Cesium.Viewer) {
   const dx = 0.0035;
   const dy = 0.0035;
 
-  viewer.scene.morphTo3D(0);
-  viewer.scene.globe.depthTestAgainstTerrain = false;
+  // viewer.scene.morphTo3D(0);
+  // viewer.scene.globe.depthTestAgainstTerrain = false;
 
   const latRad = Cesium.Math.toRadians(center.lat);
   const mToLon = (m: number) => m / (111320 * Math.cos(latRad));

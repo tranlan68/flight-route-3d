@@ -1,0 +1,270 @@
+{
+  "config": {
+    "center": { "lon": 105.8, "lat": 21.0 },
+    "layers": 8,
+    "lanesPerDir": 4,
+    "baseHeight": 300,
+    "verticalSpacing": 70,
+    "lane": {
+      "width": 30,
+      "thickness": 30
+    },
+    "dx": 0.0035,
+    "dy": 0.0035
+  },
+
+  "lanes": [
+    {
+      "layer": 0,
+      "isHorizontal": false,
+      "laneIndex": 0,
+      "direction": "positive",
+      "color": "CYAN"
+    },
+    {
+      "layer": 0,
+      "isHorizontal": false,
+      "laneIndex": 1,
+      "direction": "positive",
+      "color": "CYAN"
+    },
+    {
+      "layer": 0,
+      "isHorizontal": false,
+      "laneIndex": 2,
+      "direction": "positive",
+      "color": "CYAN"
+    },
+    {
+      "layer": 0,
+      "isHorizontal": false,
+      "laneIndex": 3,
+      "direction": "positive",
+      "color": "CYAN"
+    },
+    {
+      "layer": 0,
+      "isHorizontal": false,
+      "laneIndex": 4,
+      "direction": "negative",
+      "color": "LIMEGREEN"
+    },
+    {
+      "layer": 0,
+      "isHorizontal": false,
+      "laneIndex": 5,
+      "direction": "negative",
+      "color": "LIMEGREEN"
+    },
+    {
+      "layer": 0,
+      "isHorizontal": false,
+      "laneIndex": 6,
+      "direction": "negative",
+      "color": "LIMEGREEN"
+    },
+    {
+      "layer": 0,
+      "isHorizontal": false,
+      "laneIndex": 7,
+      "direction": "negative",
+      "color": "LIMEGREEN"
+    },
+    {
+      "layer": 1,
+      "isHorizontal": true,
+      "laneIndex": 0,
+      "direction": "negative",
+      "color": "MAGENTA"
+    },
+    {
+      "layer": 1,
+      "isHorizontal": true,
+      "laneIndex": 1,
+      "direction": "negative",
+      "color": "MAGENTA"
+    },
+    {
+      "layer": 1,
+      "isHorizontal": true,
+      "laneIndex": 2,
+      "direction": "negative",
+      "color": "MAGENTA"
+    },
+    {
+      "layer": 1,
+      "isHorizontal": true,
+      "laneIndex": 3,
+      "direction": "negative",
+      "color": "MAGENTA"
+    },
+    {
+      "layer": 1,
+      "isHorizontal": true,
+      "laneIndex": 4,
+      "direction": "positive",
+      "color": "RED"
+    },
+    {
+      "layer": 1,
+      "isHorizontal": true,
+      "laneIndex": 5,
+      "direction": "positive",
+      "color": "RED"
+    },
+    {
+      "layer": 1,
+      "isHorizontal": true,
+      "laneIndex": 6,
+      "direction": "positive",
+      "color": "RED"
+    },
+    {
+      "layer": 1,
+      "isHorizontal": true,
+      "laneIndex": 7,
+      "direction": "positive",
+      "color": "RED"
+    },
+    {
+      "layer": 2,
+      "isHorizontal": false,
+      "laneIndex": 0,
+      "direction": "positive",
+      "color": "LIMEGREEN"
+    },
+    {
+      "layer": 2,
+      "isHorizontal": false,
+      "laneIndex": 1,
+      "direction": "positive",
+      "color": "CYAN"
+    },
+    {
+      "layer": 2,
+      "isHorizontal": false,
+      "laneIndex": 2,
+      "direction": "positive",
+      "color": "CYAN"
+    },
+    {
+      "layer": 2,
+      "isHorizontal": false,
+      "laneIndex": 3,
+      "direction": "positive",
+      "color": "CYAN"
+    },
+    {
+      "layer": 2,
+      "isHorizontal": false,
+      "laneIndex": 4,
+      "direction": "negative",
+      "color": "LIMEGREEN"
+    },
+    {
+      "layer": 2,
+      "isHorizontal": false,
+      "laneIndex": 5,
+      "direction": "negative",
+      "color": "LIMEGREEN"
+    },
+    {
+      "layer": 2,
+      "isHorizontal": false,
+      "laneIndex": 6,
+      "direction": "negative",
+      "color": "LIMEGREEN"
+    },
+    {
+      "layer": 2,
+      "isHorizontal": false,
+      "laneIndex": 7,
+      "direction": "negative",
+      "color": "LIMEGREEN"
+    },
+    {
+      "layer": 3,
+      "isHorizontal": true,
+      "laneIndex": 0,
+      "direction": "negative",
+      "color": "MAGENTA"
+    },
+    {
+      "layer": 3,
+      "isHorizontal": true,
+      "laneIndex": 1,
+      "direction": "negative",
+      "color": "MAGENTA"
+    },
+    {
+      "layer": 3,
+      "isHorizontal": true,
+      "laneIndex": 2,
+      "direction": "negative",
+      "color": "MAGENTA"
+    },
+    {
+      "layer": 3,
+      "isHorizontal": true,
+      "laneIndex": 3,
+      "direction": "negative",
+      "color": "MAGENTA"
+    },
+    {
+      "layer": 3,
+      "isHorizontal": true,
+      "laneIndex": 4,
+      "direction": "positive",
+      "color": "RED"
+    },
+    {
+      "layer": 3,
+      "isHorizontal": true,
+      "laneIndex": 5,
+      "direction": "positive",
+      "color": "RED"
+    },
+    {
+      "layer": 3,
+      "isHorizontal": true,
+      "laneIndex": 6,
+      "direction": "positive",
+      "color": "RED"
+    },
+    {
+      "layer": 3,
+      "isHorizontal": true,
+      "laneIndex": 7,
+      "direction": "positive",
+      "color": "RED"
+    }
+  ],
+
+  "curvedPaths": [
+    {
+      "width": 30,
+      "thickness": 30,
+      "color": "MAGENTA",
+      "points": [
+        { "lon": 105.802254, "lat": 20.998852, "alt": 300 },
+        { "lon": 105.802390, "lat": 20.999050, "alt": 305 },
+        { "lon": 105.802562, "lat": 20.999480, "alt": 340 },
+        { "lon": 105.802971, "lat": 20.999696, "alt": 360 },
+        { "lon": 105.803266, "lat": 20.999843, "alt": 370 }
+      ]
+    },
+
+    {
+      "width": 30,
+      "thickness": 30,
+      "color": "CYAN",
+      "points": [
+        { "lon": 105.802254, "lat": 20.998852, "alt": 440 },
+        { "lon": 105.802390, "lat": 20.999050, "alt": 445 },
+        { "lon": 105.802562, "lat": 20.999480, "alt": 480 },
+        { "lon": 105.802971, "lat": 20.999696, "alt": 500 },
+        { "lon": 105.803266, "lat": 20.999843, "alt": 510 }
+      ]
+    }
+  ]
+}
